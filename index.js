@@ -5,6 +5,11 @@ const mainHeading = document.querySelector('.content_heading')
 const subHeading = document.querySelector('.sub_heading')
 const bgImage = document.querySelector('.bg_image')
 const mainBody =document.querySelector('body')
+const imageContent = document.querySelector('.bg_content')
+const imageSubContent = document.querySelector('.bg_subContent')
+
+
+
 hamBtn.addEventListener('click',function (ev)  {
 
     this.classList.toggle('open')
@@ -23,6 +28,7 @@ window.addEventListener('load',function(){
 window.addEventListener('load',()=>{
     setTimeout(()=>{
         subHeading.classList.add('enter_sub')
+        
     },2000)
 })
 
@@ -31,10 +37,11 @@ window.addEventListener('scroll',()=>{
     const scrollY = window.scrollY 
     
       console.log(scrollY)
-      if(scrollY  > 100){
+      if(scrollY  > 200){
        setTimeout(()=>{
-          console.log("hai")
-       },2000)
+        imageContent.classList.add("enter_bg_content")
+        imageSubContent.classList.add('enter_bg_Subcontent')
+       },1500)
       }
 })
 
