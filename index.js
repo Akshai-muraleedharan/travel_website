@@ -7,7 +7,7 @@ const bgImage = document.querySelector('.bg_image')
 const mainBody =document.querySelector('body')
 const imageContent = document.querySelector('.bg_content')
 const imageSubContent = document.querySelector('.bg_subContent')
-
+const outPutMainPage = document.querySelector('#outPut')
 
 
 hamBtn.addEventListener('click',function (ev)  {
@@ -19,10 +19,31 @@ hamBtn.addEventListener('click',function (ev)  {
       
 })
 
+// fetch data functions
+
+function fetchData(data){
+  let outPut = ''
+  let value = data.slice(0,4)
+
+  console.log(value)
+
+  value.forEach((item) => {
+       outPut += `
+       <div class="card_body">
+       <img src=${item.image} alt=${item.name} class="card_img"/>
+       <h3 class="card_title">${item.name}</h3>
+       </div>
+       `
+  })
+
+  outPutMainPage.innerHTML = outPut
+ 
+}
+
 
 window.addEventListener('load',function(){
-  
     mainHeading.classList.add('enter')
+    fetchData(details)
 })
 
 window.addEventListener('load',()=>{
