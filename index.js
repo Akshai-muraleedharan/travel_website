@@ -21,7 +21,7 @@ hamBtn.addEventListener('click',function (ev)  {
 
 
 window.addEventListener('load',function(){
-   console.log(details)
+  
     mainHeading.classList.add('enter')
 })
 
