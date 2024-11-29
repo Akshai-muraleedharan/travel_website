@@ -17,6 +17,7 @@ header{
     align-items: center;
     box-shadow: 10px -10px 12px 4px;
    
+   
 
 }
 header.header_position{
@@ -58,6 +59,101 @@ header.header_position{
 .burger{
     display: none;
 }
+
+.content{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.content_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_Img{
+  max-width: 150px
+}
+
+
+.content_heading{
+  font-size: clamp(14px, 3vw + 10px, 48px);
+  position: absolute;
+  top: -200px;
+  z-index: 1;
+ 
+}
+
+.content_heading.enter{
+  top: 20%;
+  font-size: clamp(14px, 3vw + 10px, 48px);
+  transition: top 0.7s ease;
+  transition-delay: 0.5s; 
+ 
+  
+}
+
+.sub_heading{
+  position: absolute;
+  top: 30%;
+  opacity: 0;          
+  transition: opacity 1s ease-in;
+
+}
+
+.sub_heading.enter_sub{
+  opacity: 1;  
+}
+
+
+.bg_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJhdmVsfGVufDB8MHwwfHx8MA%3D%3D");
+}
+
+
+
+.bg_content{
+  opacity: 0;          
+  transition: opacity 1s ease-in;
+  font-size: clamp(14px, 3vw + 10px, 48px);
+}
+
+.bg_content.enter_bg_content{
+  opacity: 1; 
+}
+
+.bg_subContent{
+  opacity: 0;          
+  transition: opacity 2s ease-in;
+}
+
+.bg_subContent.enter_bg_Subcontent{
+  opacity: 1; 
+}
+
+@media (min-width:1025px){
+ .bg_image{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHRyYXZlbCUyMHdpZHRoJTIwMjAwMHB4fGVufDB8MHwwfHx8MA%3D%3D");
+ }
+}
+
 
 @media (max-width:767px){
   
@@ -165,9 +261,7 @@ header.header_position{
     position: absolute;
   
     top: -400px;
-    
-    
-    
+ 
   }
 
    .content_heading.enter{
@@ -218,6 +312,7 @@ header.header_position{
   .bg_content{
     opacity: 0;          
     transition: opacity 1s ease-in;
+    font-size: clamp(14px, 3vw + 10px, 48px);
   }
 
   .bg_content.enter_bg_content{

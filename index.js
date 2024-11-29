@@ -21,7 +21,7 @@ hamBtn.addEventListener('click',function (ev)  {
 
 
 window.addEventListener('load',function(){
-   
+   console.log(details)
     mainHeading.classList.add('enter')
 })
 
@@ -36,12 +36,11 @@ window.addEventListener('scroll',()=>{
    
     const scrollY = window.scrollY 
     
-      console.log(scrollY)
       if(scrollY  > 200){
        setTimeout(()=>{
         imageContent.classList.add("enter_bg_content")
         imageSubContent.classList.add('enter_bg_Subcontent')
-       },1500)
+       },1000)
       }
 })
 
