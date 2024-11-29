@@ -25,7 +25,7 @@ function fetchData(data){
   let outPut = ''
   let value = data.slice(0,4)
 
-  console.log(value)
+ 
 
   value.forEach((item) => {
        outPut += `
