@@ -23,11 +23,11 @@ hamBtn.addEventListener('click',function (ev)  {
 
 function fetchData(data){
   let outPut = ''
-  let value = data.slice(0,4)
+  let slicedData = data.slice(0,4)
 
  
 
-  value.forEach((item) => {
+  slicedData.forEach((item) => {
        outPut += `
        <div class="card_body">
        <img src=${item.image} alt=${item.name} class="card_img"/>

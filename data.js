@@ -201,7 +201,7 @@ let details = [
   {
     "id": 7,
     "name": "Santorini",
-    "image": "https://example.com/santorini.jpg",
+    "image": "https://images.unsplash.com/photo-1716573120993-8f3719fcd486?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2FudG9yaW5pfGVufDB8MHwwfHx8MA%3D%3D",
     "description": "A picturesque island in the Aegean Sea, known for its stunning sunsets and whitewashed buildings.",
     "country": "Greece",
     "tourPackage": {
@@ -234,7 +234,7 @@ let details = [
   {
     "id": 8,
     "name": "Sydney Opera House",
-    "image": "https://example.com/sydney_opera_house.jpg",
+    "image": "https://media.istockphoto.com/id/157679322/photo/panorama-of-sydney-harbour-in-the-afternoon-sun-xxxl.webp?a=1&b=1&s=612x612&w=0&k=20&c=CK0byb7K3zjAWAbn5XownuuHb-y2obG6V1kyTuz9MOE=",
     "description": "A multi-venue performing arts center in Sydney, Australia, famous for its unique architectural design.",
     "country": "Australia",
     "tourPackage": {
@@ -272,7 +272,7 @@ let details = [
     {
       "id": 9,
       "name": "Pyramids of Giza",
-      "image": "https://example.com/pyramids_of_giza.jpg",
+      "image": "https://media.istockphoto.com/id/531252132/photo/giza-pyramids-and-sphinx-in-cairo-egypt.webp?a=1&b=1&s=612x612&w=0&k=20&c=r7mT2PsFOG06Ro3a9H5Lb3BK_cyZ5Xo4DESRv4LMiqE=",
       "description": "Ancient pyramid structures located in Giza, Egypt, known as one of the Seven Wonders of the Ancient World.",
       "country": "Egypt",
       "tourPackage": {
@@ -305,7 +305,7 @@ let details = [
     {
       "id": 10,
       "name": "Niagara Falls",
-      "image": "https://example.com/niagara_falls.jpg",
+      "image": "https://images.unsplash.com/photo-1533094602577-198d3beab8ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmlhZ2FyYSUyMEZhbGxzfGVufDB8MHwwfHx8MA%3D%3D",
       "description": "A group of three waterfalls located on the border of Canada and the United States, renowned for their beauty.",
       "country": "Canada",
       "tourPackage": {
@@ -338,7 +338,7 @@ let details = [
     {
       "id": 11,
       "name": "Mount Everest",
-      "image": "https://example.com/mount_everest.jpg",
+      "image": "https://media.istockphoto.com/id/478627080/photo/evening-view-of-ama-dablam.webp?a=1&b=1&s=612x612&w=0&k=20&c=3LZbg7zQu6Ajt_r0z301QraM5hjLC9AsfbloGFTH7H4=",
       "description": "The highest mountain on Earth, located in the Himalayas on the border between Nepal and China.",
       "country": "Nepal/China",
       "tourPackage": {
@@ -371,7 +371,7 @@ let details = [
     {
       "id": 12,
       "name": "Christ the Redeemer",
-      "image": "https://example.com/christ_the_redeemer.jpg",
+      "image": "https://media.istockphoto.com/id/1312539295/photo/aerial-view-of-sanctuary-of-christ-the-king-or-santuario-de-cristo-rei-on-sunny-summer-day.webp?a=1&b=1&s=612x612&w=0&k=20&c=0veSEuW-FOG9DfdLmirGqM83pbMVobuNjRWsknSynx8=",
       "description": "A giant statue of Jesus Christ located in Rio de Janeiro, Brazil, one of the New Seven Wonders of the World.",
       "country": "Brazil",
       "tourPackage": {
@@ -404,7 +404,7 @@ let details = [
     {
       "id": 13,
       "name": "Stonehenge",
-      "image": "https://example.com/stonehenge.jpg",
+      "image": "https://media.istockphoto.com/id/542286320/photo/stonehenge-with-blue-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=qsMNZ-P9toIpNNYcV6mxiI7FZC9uUSSoPSeIFEfxYqk=",
       "description": "A prehistoric monument in Wiltshire, England, consisting of a ring of standing stones, whose purpose remains unclear.",
       "country": "United Kingdom",
       "tourPackage": {
@@ -437,7 +437,7 @@ let details = [
     {
       "id": 14,
       "name": "Acropolis of Athens",
-      "image": "https://example.com/acropolis_of_athens.jpg",
+      "image": "https://media.istockphoto.com/id/492651752/photo/acropolis-hill-parthenon-athens-greece-odeon-herodes-atticus.webp?a=1&b=1&s=612x612&w=0&k=20&c=IrxGnVpQ3CJ-h_derm0AHzQS5LNZeDohjb6qbcfDa5w=",
       "description": "An ancient citadel located on a rocky outcrop above Athens, Greece, known for its Parthenon temple.",
       "country": "Greece",
       "tourPackage": {
@@ -470,7 +470,7 @@ let details = [
     {
       "id": 15,
       "name": "Cologne Cathedral",
-      "image": "https://example.com/cologne_cathedral.jpg",
+      "image": "https://media.istockphoto.com/id/491245279/photo/cologne-germany.webp?a=1&b=1&s=612x612&w=0&k=20&c=8zeRxh6IS_K3nM6OROlHkjGtMo12PnIKUipF2vabfzM=",
       "description": "A Gothic masterpiece located in Cologne, Germany, known for its towering spires and stained glass windows.",
       "country": "Germany",
       "tourPackage": {
@@ -503,7 +503,7 @@ let details = [
     {
       "id": 16,
       "name": "Big Ben",
-      "image": "https://example.com/big_ben.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1664303991463-36449a65d3d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmlnJTIwQmVufGVufDB8MHwwfHx8MA%3D%3D",
       "description": "The nickname for the Great Bell of the clock at the Palace of Westminster in London, England.",
       "country": "United Kingdom",
       "tourPackage": {
@@ -541,7 +541,7 @@ let details = [
       {
         "id": 17,
         "name": "Sagrada Familia",
-        "image": "https://example.com/sagrada_familia.jpg",
+        "image": "https://media.istockphoto.com/id/1397405700/photo/sagrada-familia-cathedral-in-spring-barcelona-spain.webp?a=1&b=1&s=612x612&w=0&k=20&c=3FlRp_X6x104hU1LIUthxzIGjyLwQyyLlTW7HD9q0lo=",
         "description": "An unfinished basilica designed by architect Antoni Gaudí, located in Barcelona, Spain.",
         "country": "Spain",
         "tourPackage": {
@@ -571,76 +571,12 @@ let details = [
           ]
         }
       },
-      {
-        "id": 18,
-        "name": "Alhambra",
-        "image": "https://example.com/alhambra.jpg",
-        "description": "A palace and fortress complex located in Granada, Spain, known for its Islamic architecture.",
-        "country": "Spain",
-        "tourPackage": {
-          "hotel": "Parador de Granada",
-          "days": 5,
-          "priceInINR": 160000,
-          "members": 2,
-          "rooms": [
-            {
-              "roomType": "Standard Room",
-              "features": ["Queen-size bed", "Garden views", "Free Wi-Fi", "Mini-bar", "Private balcony"],
-              "priceInINR": 25000,
-              "available": true
-            },
-            {
-              "roomType": "Superior Room",
-              "features": ["King-size bed", "Alhambra views", "Mini-bar", "Complimentary breakfast", "Wi-Fi"],
-              "priceInINR": 40000,
-              "available": true
-            },
-            {
-              "roomType": "Suite",
-              "features": ["King-size bed", "Private terrace", "Alhambra views", "Jacuzzi", "Butler service"],
-              "priceInINR": 75000,
-              "available": false
-            }
-          ]
-        }
-      },
-      {
-        "id": 19,
-        "name": "The Louvre Museum",
-        "image": "https://example.com/louvre_museum.jpg",
-        "description": "The world's largest art museum and a historic monument in Paris, France, home to the Mona Lisa.",
-        "country": "France",
-        "tourPackage": {
-          "hotel": "Le Meurice",
-          "days": 4,
-          "priceInINR": 220000,
-          "members": 3,
-          "rooms": [
-            {
-              "roomType": "Standard Room",
-              "features": ["King-size bed", "City views", "Free Wi-Fi", "Mini-bar", "Luxury bath amenities"],
-              "priceInINR": 30000,
-              "available": true
-            },
-            {
-              "roomType": "Deluxe Suite",
-              "features": ["King-size bed", "Private terrace", "City views", "Jacuzzi", "Butler service"],
-              "priceInINR": 65000,
-              "available": true
-            },
-            {
-              "roomType": "Presidential Suite",
-              "features": ["King-size bed", "Panoramic views", "Private terrace", "Jacuzzi", "Private dining room"],
-              "priceInINR": 120000,
-              "available": false
-            }
-          ]
-        }
-      },
+      
+      
       {
         "id": 20,
         "name": "Banff National Park",
-        "image": "https://example.com/banff_national_park.jpg",
+        "image": "https://media.istockphoto.com/id/181128222/photo/elk-in-banff-national-park.webp?a=1&b=1&s=612x612&w=0&k=20&c=vk6LbJOGoHeVubWtqv1_c2rbnL2fTu6o_W_343lzhB0=",
         "description": "Canada's first national park, located in the Canadian Rockies, known for its stunning mountain landscapes and wildlife.",
         "country": "Canada",
         "tourPackage": {
@@ -673,7 +609,7 @@ let details = [
       {
         "id": 21,
         "name": "Angkor Wat",
-        "image": "https://example.com/angkor_wat.jpg",
+        "image": "https://images.unsplash.com/photo-1644651434676-c1937ecad149?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QW5na29yJTIwV2F0fGVufDB8MHwwfHx8MA%3D%3D",
         "description": "A temple complex in Cambodia, originally built in the 12th century as a Hindu temple, later converted to a Buddhist one.",
         "country": "Cambodia",
         "tourPackage": {
@@ -706,7 +642,7 @@ let details = [
       {
         "id": 22,
         "name": "Mount Fuji",
-        "image": "https://example.com/mount_fuji.jpg",
+        "image": "https://media.istockphoto.com/id/502617555/photo/world-heritage-mount-fuji-and-lake-shoji.webp?a=1&b=1&s=612x612&w=0&k=20&c=97K92gpF1Uk-gEkJIVvbs8I_MBWk9x8SBzvkqJxfXV8=",
         "description": "Japan's highest peak, an active stratovolcano, and an iconic symbol of the country.",
         "country": "Japan",
         "tourPackage": {
@@ -739,7 +675,7 @@ let details = [
       {
         "id": 23,
         "name": "Forbidden City",
-        "image": "https://example.com/forbidden_city.jpg",
+        "image": "https://media.istockphoto.com/id/1202091215/photo/forbidden-city-beijing-china.webp?a=1&b=1&s=612x612&w=0&k=20&c=nPG1QlTaY5FlcGIgsC09hixkb8doI23EvQrC_vHbTVk=",
         "description": "A palace complex in Beijing, China, which served as the home of emperors and their households for almost 500 years.",
         "country": "China",
         "tourPackage": {
@@ -769,43 +705,11 @@ let details = [
           ]
         }
       },
-      {
-        "id": 24,
-        "name": "Palace of Versailles",
-        "image": "https://example.com/palace_of_versailles.jpg",
-        "description": "A former royal residence located in Versailles, France, known for its opulence and historical significance.",
-        "country": "France",
-        "tourPackage": {
-          "hotel": "Trianon Palace Versailles",
-          "days": 5,
-          "priceInINR": 210000,
-          "members": 3,
-          "rooms": [
-            {
-              "roomType": "Standard Room",
-              "features": ["King-size bed", "Garden views", "Free Wi-Fi", "Mini-bar", "Complimentary breakfast"],
-              "priceInINR": 25000,
-              "available": true
-            },
-            {
-              "roomType": "Deluxe Suite",
-              "features": ["King-size bed", "Palace views", "Jacuzzi", "Mini-bar", "Private balcony"],
-              "priceInINR": 55000,
-              "available": true
-            },
-            {
-              "roomType": "Presidential Suite",
-              "features": ["King-size bed", "Panoramic views", "Private terrace", "Jacuzzi", "Butler service"],
-              "priceInINR": 100000,
-              "available": false
-            }
-          ]
-        }
-      },
+      
       {
         "id": 25,
         "name": "Brandenburg Gate",
-        "image": "https://example.com/brandenburg_gate.jpg",
+        "image": "https://media.istockphoto.com/id/183020970/photo/brandenburg-gate-in-berlin-germany.webp?a=1&b=1&s=612x612&w=0&k=20&c=gb5uXPYCeZCKbaxDCtNckN_yBYjLH0S3V7CSfHVACXA=",
         "description": "A neoclassical monument in Berlin, Germany, symbolizing the reunification of East and West Germany.",
         "country": "Germany",
         "tourPackage": {
