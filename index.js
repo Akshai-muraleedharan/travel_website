@@ -30,7 +30,7 @@ function fetchData(data){
   slicedData.forEach((item) => {
        outPut += `
        <div class="card_body">
-       <img src=${item.image} alt=${item.name} class="card_img"/>
+       <img src=${item.image} alt=${item.name} loading="lazy" class="card_img"/>
        <h3 class="card_title">${item.name}</h3>
        </div>
        `

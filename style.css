@@ -148,10 +148,101 @@ header.header_position{
   opacity: 1; 
 }
 
+
+/* section 2 */
+
+.sect_2{
+  width: 100%;
+ padding-bottom: 10px;
+ 
+}
+
+.sect_2_heading{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: clamp(14px, 3vw + 10px, 48px);
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+#outPut{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.card_body{
+  width: 45%;
+  border-radius: 5px;
+  box-shadow: 8px 7px 11px -10px;
+  margin-bottom: 5px;
+}
+
+.card_img{
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.card_title{
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.button_link{
+  display: block;
+  margin: 50px auto 0px auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 11px 10px;
+  background-color: rgb(38, 86, 241);
+  width: 200px;
+  color: white;
+  border-radius: 4px;
+  
+}
+
+
+
 @media (min-width:1025px){
  .bg_image{
   background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHRyYXZlbCUyMHdpZHRoJTIwMjAwMHB4fGVufDB8MHwwfHx8MA%3D%3D");
  }
+
+ .card_body{
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 8px 7px 11px -10px;
+  margin-bottom: 5px;
+}
+
+.sect_2_heading{
+  margin-bottom: 80px;
+}
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .card_body {
+    width: 40%!important;
+    border-radius: 5px !important; 
+    box-shadow: 8px 7px 11px -10px !important; 
+    margin-bottom: 5px !important; 
+  }
+  .card_img{
+    width: 100 !important;
+    object-fit: cover !important;
+    height: 180px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+  }
 }
 
 
@@ -333,7 +424,7 @@ header.header_position{
 
 .sect_2{
   width: 100%;
-  height:100vh;
+  padding-bottom: 10px;
  
 }
 
