@@ -40,6 +40,12 @@ header.header_position{
 .menu li a{
     text-decoration: none;
     font-weight: 600;
+    color: #000!important;
+
+}
+
+.menu li a:hover{
+  color: red;
 }
 
 .login_btn{
@@ -210,6 +216,37 @@ header.header_position{
   color: white;
   border-radius: 4px;
   
+}
+
+footer{
+  width: 100%;
+  height: 120px;
+  background: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+
+
+
+.footer_logo{
+  color: #fff;
+  font-size: clamp(12px, 5vw + 10px, 18px);
+  padding: 20px 10px 0px 5px;
+  
+}
+
+.footer_content{
+  color: #fff;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer_li{
+  text-decoration: none!important;
 }
 
 
@@ -497,6 +534,33 @@ header.header_position{
 /* ------------- */
 /* main card.html css  above */
 
+/* footer */
+footer{
+  width: 100%;
+  height: 120px;
+  background: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.footer_logo{
+  color: #fff;
+  font-size: clamp(12px, 5vw + 10px, 18px);
+  padding: 20px 10px 0px 5px;
+  
+}
+
+.footer_content{
+  color: #fff;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer_li{
+  text-decoration: none!important;
+}
 
 
 
