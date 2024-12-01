@@ -20,10 +20,12 @@ function fetchData(data){
    slicedData.forEach((item)=>{
     
     outPut += `
-     <div class="card_body">
+     <a href="./singlePage.html?id=${item.id}" class="card_body">
+     <div >
        <img src=${item.image} alt=${item.name} loading="lazy" class="card_img"/>
        <h3 class="card_title">${item.name}</h3>
        </div>
+       </a>
     `
    })
 

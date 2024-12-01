@@ -179,6 +179,8 @@ header.header_position{
   border-radius: 5px;
   box-shadow: 8px 7px 11px -10px;
   margin-bottom: 5px;
+  text-decoration: none;
+  color: #000;
 }
 
 .card_img{
@@ -222,6 +224,8 @@ header.header_position{
   border-radius: 5px;
   box-shadow: 8px 7px 11px -10px;
   margin-bottom: 5px;
+  text-decoration: none;
+  color: #000;
 }
 
 .sect_2_heading{
@@ -235,6 +239,8 @@ header.header_position{
     border-radius: 5px !important; 
     box-shadow: 8px 7px 11px -10px !important; 
     margin-bottom: 5px !important; 
+    text-decoration: none;
+    color: #000;
   }
   .card_img{
     width: 100 !important;
@@ -449,6 +455,8 @@ header.header_position{
   width: 45%;
   border-radius: 5px;
   box-shadow: 8px 7px 11px -10px;
+  text-decoration: none;
+  color: #000;
   
 }
 
@@ -489,6 +497,56 @@ header.header_position{
 /* ------------- */
 /* main card.html css  above */
 
+
+/* single page css below */
+
+#place_Name{
+  text-align: center;
+  font-size: clamp(14px, 3vw + 10px, 48px);
+  margin: 30px 0px;
+}
+
+#outPutList{
+  display: grid;
+  grid-template-columns: 1fr ;
+  
+}
+
+.img_container{
+  width: 100%;
+  height: 40vh;
+}
+
+.img_container img{
+  width: 100%;
+  object-fit: cover;
+  height: 40vh;
+}
+
+.detail_container{
+  padding: 0px 10px;
+}
+
+.detail_container h2{
+  margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.detail_container p {
+  text-align: center;
+  max-width: 320px;
+  margin: 10px auto 0px auto;
+  line-height: 23px;
+  font-size: clamp(14px, 2vw + 10px, 48px);
+  
+}
+
+.detail_container h3{
+  margin-top: 50px;
+  text-align: center;
+}
+/* single page css above */
 
 
 }
