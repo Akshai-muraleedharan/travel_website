@@ -7,6 +7,7 @@ let details = [
     "country": "France",
     "tourPackage": {
       "hotel": "Hotel Le Meurice",
+      "image":"https://media.istockphoto.com/id/1345364288/photo/hotel-le-meurice-outside-view-paris-france.jpg?s=612x612&w=0&k=20&c=cs_H7OJVDPIqzkDWJEvDs9T_WgVftVZ1jJoW7LMYIJE=",
       "days": 5,
       "priceInINR": 120000,
       "members": 2,
@@ -40,6 +41,7 @@ let details = [
     "country": "India",
     "tourPackage": {
       "hotel": "Oberoi Amarvilas",
+      "image":"https://media.gettyimages.com/id/528692650/photo/the-oberoi-amarvilas-hotel-agra-india.jpg?s=612x612&w=0&k=20&c=iqCuZrxKT00pyD-gy4rm7Vh6xEyvauFYwyMzYxFbOPE=",
       "days": 4,
       "priceInINR": 80000,
       "members": 2,
@@ -74,6 +76,7 @@ let details = [
     "country": "Peru",
     "tourPackage": {
       "hotel": "Belmond Sanctuary Lodge",
+      "image":"./assets/hotelimage/BelmondSanctuaryLodge.jfif",
       "days": 6,
       "priceInINR": 180000,
       "members": 2,
@@ -106,7 +109,8 @@ let details = [
     "description": "An ancient amphitheater located in Rome, Italy, known for its grandeur and historical significance.",
     "country": "Italy",
     "tourPackage": {
-      "hotel": "Hotel Artemide",
+      "hotel": "Hotel Artemide", 
+      "image":"./assets/hotelimage/HotelArtemide.jfif",
       "days": 4,
       "priceInINR": 100000,
       "members": 3,
@@ -140,6 +144,7 @@ let details = [
     "country": "United States",
     "tourPackage": {
       "hotel": "The Langham, New York",
+      "image":"assets/hotelimage/TheLangham,NewYork.jfif",
       "days": 3,
       "priceInINR": 220000,
       "members": 2,
@@ -173,6 +178,7 @@ let details = [
     "country": "China",
     "tourPackage": {
       "hotel": "Beijing Marriott Hotel",
+      "image":"assets/hotelimage/BeijingMarriottHotel.jfif",
       "days": 7,
       "priceInINR": 150000,
       "members": 4,
@@ -206,6 +212,7 @@ let details = [
     "country": "Greece",
     "tourPackage": {
       "hotel": "Katikies Hotel",
+      "image":"assets/hotelimage/KatikiesHotel.jfif",
       "days": 6,
       "priceInINR": 120000,
       "members": 2,
@@ -239,6 +246,7 @@ let details = [
     "country": "Australia",
     "tourPackage": {
       "hotel": "Park Hyatt Sydney",
+      "image":"assets/hotelimage/ParkHyattSydney.jfif",
       "days": 5,
       "priceInINR": 200000,
       "members": 3,
@@ -277,6 +285,7 @@ let details = [
       "country": "Egypt",
       "tourPackage": {
         "hotel": "Mena House Hotel",
+        "image":"assets/hotelimage/MenaHouseHotel.jpg",
         "days": 6,
         "priceInINR": 150000,
         "members": 4,
@@ -310,6 +319,7 @@ let details = [
       "country": "Canada",
       "tourPackage": {
         "hotel": "Niagara Falls Marriott",
+        "image":"assets/hotelimage/NiagaraFallsMarriott.jpg",
         "days": 4,
         "priceInINR": 100000,
         "members": 3,
@@ -343,6 +353,7 @@ let details = [
       "country": "Nepal/China",
       "tourPackage": {
         "hotel": "Everest View Hotel",
+        "image":"assets/hotelimage/EverestViewHotel.jpg",
         "days": 8,
         "priceInINR": 220000,
         "members": 2,
@@ -376,6 +387,7 @@ let details = [
       "country": "Brazil",
       "tourPackage": {
         "hotel": "Copacabana Palace",
+        "image":"assets/hotelimage/CopacabanaPalace.jpg",
         "days": 5,
         "priceInINR": 180000,
         "members": 2,
@@ -409,6 +421,7 @@ let details = [
       "country": "United Kingdom",
       "tourPackage": {
         "hotel": "The Royal Crescent Hotel & Spa",
+        "image":"assets/hotelimage/TheRoyalCrescentHotel&Spa.jpg",
         "days": 4,
         "priceInINR": 130000,
         "members": 2,
@@ -442,6 +455,7 @@ let details = [
       "country": "Greece",
       "tourPackage": {
         "hotel": "Hotel Grande Bretagne",
+        "image":"assets/hotelimage/HotelGrandeBretagne.jpg",
         "days": 5,
         "priceInINR": 160000,
         "members": 2,
@@ -475,6 +489,7 @@ let details = [
       "country": "Germany",
       "tourPackage": {
         "hotel": "Excelsior Hotel Ernst",
+        "image":"assets/hotelimage/ExcelsiorHoteErnst.jpg",
         "days": 3,
         "priceInINR": 120000,
         "members": 2,
@@ -508,6 +523,7 @@ let details = [
       "country": "United Kingdom",
       "tourPackage": {
         "hotel": "The Ritz London",
+        "image":"assets/hotelimage/TheRitzLondon.jpg",
         "days": 4,
         "priceInINR": 150000,
         "members": 2,
@@ -546,6 +562,7 @@ let details = [
         "country": "Spain",
         "tourPackage": {
           "hotel": "Hotel Arts Barcelona",
+          "image":"assets/hotelimage/HoteArtsBarcelona.jpg",
           "days": 6,
           "priceInINR": 180000,
           "members": 2,
@@ -581,6 +598,7 @@ let details = [
         "country": "Canada",
         "tourPackage": {
           "hotel": "Fairmont Banff Springs",
+          "image":"assets/hotelimage/FairmontBanffSprings.jpg",
           "days": 6,
           "priceInINR": 150000,
           "members": 4,
@@ -614,6 +632,7 @@ let details = [
         "country": "Cambodia",
         "tourPackage": {
           "hotel": "Sofitel Angkor Phokeethra Golf & Spa Resort",
+          "image":"assets/hotelimage/SofitelAngkorPhokeethraGolf&SpaResort.jpg",
           "days": 5,
           "priceInINR": 130000,
           "members": 2,
@@ -647,6 +666,7 @@ let details = [
         "country": "Japan",
         "tourPackage": {
           "hotel": "Hotel Green Plaza Hakone",
+          "image":"assets/hotelimage/HotelGreenPlazaHakone.jpg",
           "days": 4,
           "priceInINR": 120000,
           "members": 3,
@@ -680,6 +700,7 @@ let details = [
         "country": "China",
         "tourPackage": {
           "hotel": "The Peninsula Beijing",
+          "image":"assets/hotelimage/ThePeninsulaBeijing.jpg",
           "days": 5,
           "priceInINR": 200000,
           "members": 4,
@@ -714,6 +735,7 @@ let details = [
         "country": "Germany",
         "tourPackage": {
           "hotel": "Hotel Adlon Kempinski Berlin",
+          "image":"assets/hotelimage/HotelAdlonKempinskiBerlin.jpg",
           "days": 4,
           "priceInINR": 180000,
           "members": 2,
